@@ -1,4 +1,4 @@
-name: CICD
+  name: CICD
 
 on:
   push:
@@ -27,3 +27,4 @@ jobs:
 
       - name: Test Project
         run: npm test
+
